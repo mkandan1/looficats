@@ -1,0 +1,38 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 20px 20px;
+    z-index: 100;
+}
+
+#logo-container {
+    width: min(35%, 130px);
+}
+
+.bx-menu {
+    font-size: 24px;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-nav .nav-link.active{
+    color: #2938C7;
+}
+
+.nav-link {
+    font-family: 'Urbanist';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.nav-item {
+    margin-right: 30px;
+}
