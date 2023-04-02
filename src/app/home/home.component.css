@@ -1,14 +1,12 @@
  section {
     background-color: #FFF;
     width: 100%;
-    height: 100vh;
-    flex-wrap: wrap;
     padding: 0px 5vw;
     margin: 0;
 }
 
 .intro {
-    height: 80vh;
+    padding-bottom: 0em;
     background: #FDF4EE;
 
 }
@@ -93,7 +91,8 @@
 
 #services {
     background-color: #f5f6f7;
-    height: 90vh !important;
+    padding-bottom: 7em;
+    flex-wrap: wrap;
 }
 
 .services-container {
@@ -184,7 +183,7 @@
 
 #trust-us {
     background-color: #f5f6f7;
-    height: 50vh;
+    padding: 5em;
 }
 
 .trust_us > p {
@@ -202,17 +201,19 @@
     margin-bottom: 0;
 }
 
-.brand_container > span {
+.brand_container > a {
     text-transform: uppercase;
     margin-top: 5px;
     font-size: 10px;
     font-weight: 800;
     display: flex;
+    color: #3c3c3c;
+    text-decoration: none;
     font-family: 'Mulish', sans-serif;
     align-items: center;
 }
 
-.brand_container > span > i {
+.brand_container > a > i {
     font-size: 20px;
     margin-left: .4rem;
 }
@@ -238,11 +239,11 @@
 }
 
 .cotact {
-    height: 80vh;
+    padding-bottom: 5em;
 }
 
 .contact-container {
-    height: 50vh;
+    padding-bottom: 5em;
     border-radius: 5px;
     background: linear-gradient(90deg, #1525B4 36.53%, #2C41FD 98.78%);
     background-blend-mode: darken;
