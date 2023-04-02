@@ -326,3 +326,15 @@ footer {
     font-size: 13px;
     color: #000;
 }
+
+.address {
+    font-family: 'Mulish', sans-serif;
+}
+
+.address > h6 {
+    font-weight: 800;
+}
+
+.address > p {
+    font-family: 'Oxygen', sans-serif;
+}

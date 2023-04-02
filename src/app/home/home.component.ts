@@ -15,8 +15,8 @@ export class HomeComponent   {
     }
    
 
-    submit(name: HTMLInputElement, company: HTMLInputElement, email: HTMLInputElement, sub: HTMLInputElement, message: HTMLTextAreaElement){
-      console.log(name)
+    submit(name: HTMLInputElement, email: HTMLInputElement, company: HTMLInputElement, sub: HTMLInputElement, message: HTMLTextAreaElement){
+      
       axios.post('https://api.emailjs.com/api/v1.0/email/send', {
         service_id: 'service_6ueb06h',
         template_id: 'template_fdpv07y',
