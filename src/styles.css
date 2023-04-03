@@ -19,6 +19,14 @@
     font-family: 'Urbanist', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFF;
+}
+
 .btn--large-own {
     padding: 10px 30px;
     font-size: 12px;
